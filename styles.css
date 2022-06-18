@@ -57,7 +57,7 @@ body{
     margin-bottom: 170px;
 }
 
-/*logo top*/
+/*top logo*/
 .b-logo{ flex: 1; }
 
 .b-logo img{ width: 210px; }
@@ -101,21 +101,17 @@ body{
     font-size: 3rem;
     text-align: center;
     line-height: 1.5;
-    /*padding: 0 60px;*/
     width: 540px;
     margin: 0 auto 45px auto;
 }
 
 .block-main__description{
     font-weight: 400;
-    /*font-size: 1rem;*/
-    /*padding: 0 46px;*/
     font-size: 2rem;
     text-align: center;
     line-height: 1.5;
     width: 600px;
     margin: 0 auto 70px auto;
-    /*margin-bottom: 70px;*/
 }
 
 .block-main__btn-get-started-one{
@@ -150,13 +146,11 @@ body{
     box-shadow: 0 1px 10px 5px var(--shadow-color);
     border-radius: 28px;
     margin-bottom: 85px;
-    /*padding: 116px 0 60px 0;*/
     padding-top: 118px;
     padding-bottom: 58px;
 }
 
 .block-main__side-img{
-    /*padding: 0 93px 0 93px;*/
     margin-bottom: 120px;
     display: flex;
     justify-content: center;
@@ -175,7 +169,7 @@ body{
     font-weight: 400;
     color: var(--grayish-blue);
     text-align: center;
-    font-size: 27px;/*1.8rem*/
+    font-size: 27px;
     line-height: 1.6;
     width: 500px;
     margin: 0 auto;
@@ -314,6 +308,7 @@ body{
     border-color: var(--pink);
 }
 
+
 .block-main__container-copy{
     color: white;
     width: 600px;
@@ -354,7 +349,7 @@ body{
     }
 
     .block-main__description-feature{
-        font-size: 1.2rem;/*1.8rem*/
+        font-size: 1.2rem;
         width: auto;
         padding: 0 30px;
     }
@@ -540,7 +535,7 @@ body{
         font-size: 1.2rem;
         text-align: left;
         line-height: 1.5;
-        width: auto;/*550px*/
+        width: auto;
         margin: 0 auto 30px auto;
     }
 
