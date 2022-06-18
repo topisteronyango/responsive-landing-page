@@ -457,7 +457,7 @@ body{
 
     .block-main__icon-contact{ width: 18px; }
 
-    .block-main__contact{ gap: 20px; }
+    .block-main__contact{ gap: 15px; }
 
     .block-main__nav-other-pages-footer{
         display: grid;
