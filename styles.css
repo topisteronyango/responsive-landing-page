@@ -33,7 +33,7 @@ body{
 
 /**RESIZE IMAGES**/
 
-.block-main__logo img,
+.b-logo img,
 .block-main__img img,
 .block-main__side-img img{
     display: block;
@@ -42,7 +42,7 @@ body{
 
 /**HEADER**/
 
-.block-main__header{
+.b-header{
     background-image: url(../images/bg-hero-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -50,7 +50,7 @@ body{
     padding: 45px 30px 60px 30px;   
 }
 
-.block-main__row-top{
+.b-top_row{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -58,9 +58,9 @@ body{
 }
 
 /*logo top*/
-.block-main__logo{ flex: 1; }
+.b-logo{ flex: 1; }
 
-.block-main__logo img{ width: 210px; }
+.b-logo img{ width: 210px; }
 
 /*mockup*/
 .block-main__img{
@@ -72,12 +72,12 @@ body{
 
 /*button top*/
 
-.block-main__btn-top{
+.top-btn{
     flex: 1;
     justify-self: flex-end;
 }
 
-.block-main__btn-try{
+.try-btn{
     display: block;
     font-weight: 600;
     font-size: 19px;
@@ -88,7 +88,7 @@ body{
     box-shadow: 0 1px 7px 4px var(--shadow-color);
 }
 
-.block-main__btn-try:hover{
+.try-btn:hover{
     opacity: 0.8;
     color: rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -327,20 +327,20 @@ body{
 
 /*breakpoint 650px or 700 mobile*/
 @media screen and (max-width: 700px){
-    .block-main__row-top{
+    .b-top_row{
         grid-template-columns: 1fr;
         align-items: center;
     }
 
-    .block-main__logo{ margin-bottom: 60px; }
+    .b-logo{ margin-bottom: 60px; }
 
-    .block-main__logo img{
+    .b-logo img{
         width: 70%;
         margin: 0 auto;
         max-width: 100%;
     }
 
-    .block-main__btn-top{ justify-self: center; }
+    .top-btn{ justify-self: center; }
 
     .block-main__description{
         padding: 0;
@@ -411,7 +411,7 @@ body{
         margin: 0 15px 85px 15px;
     }
 
-    .block-main__header{
+    .b-header{
         background-image: url(../images/bg-hero-mobile.svg);
         background-repeat: no-repeat;
         background-size: contain;
@@ -523,7 +523,7 @@ body{
         justify-self: flex-start;
     }
 
-    .block-main__introduction{
+    .main-intro{
         display: flex;
         gap: 50px;
         align-items: center;
@@ -552,16 +552,16 @@ body{
         margin: 0;
     }
 
-    .block-main__header{ padding: 50px 80px 80px 80px;  }
+    .b-header{ padding: 50px 80px 80px 80px;  }
 
-    .block-main__text{ 
+    .main-text{ 
         margin-bottom: 0;
         flex: 1; 
     }
 
     .block-main__img{ flex: 1 1 11%; }
 
-    .block-main__row-top{ margin-bottom: 60px; }
+    .b-top_row{ margin-bottom: 60px; }
 
     .block-main__block-feature{
         width: auto;
